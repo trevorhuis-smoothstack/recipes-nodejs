@@ -4,6 +4,7 @@
   "description": "A microservice built to perform CRUD operations on recipes within a noSQL database.",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/trevorhuis-smoothstack/recipes-nodejs/issues"
   },
-  "homepage": "https://github.com/trevorhuis-smoothstack/recipes-nodejs#readme"
+  "homepage": "https://github.com/trevorhuis-smoothstack/recipes-nodejs#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
 }
