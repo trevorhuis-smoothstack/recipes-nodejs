@@ -1,0 +1,19 @@
+{
+  "name": "recipes-nodejs",
+  "version": "1.0.0",
+  "description": "A microservice built to perform CRUD operations on recipes within a noSQL database.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trevorhuis-smoothstack/recipes-nodejs.git"
+  },
+  "author": "Trevor Huis in 't Veld",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trevorhuis-smoothstack/recipes-nodejs/issues"
+  },
+  "homepage": "https://github.com/trevorhuis-smoothstack/recipes-nodejs#readme"
+}
